@@ -1,0 +1,17 @@
+@keyframes heartbeat {
+
+  /* создание анимации CSS3 */
+  from {
+    transform: scale(1);         /* начало анимации */
+
+  }
+
+  50% {
+    transform: scale(1.1);       /* значение на середине */
+  }
+
+  to {
+    transform: scale(1);          /* значение на в конце */
+  }
+
+}
