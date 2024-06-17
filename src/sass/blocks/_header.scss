@@ -1,11 +1,95 @@
-.title {
-  color: var(--Text-Dark, #313030);
+.header {
+   padding: 1rem 4.5rem;
 
-  /* Text/Defoult */
-  font-family: "Martel Sans";
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5rem; /* 150% */
-  letter-spacing: 0.03125rem;
+
+  &__menu {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu--items {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .nav-cart {
+
+    height: 1.5rem;
+  }
+
+  .nav-logo {
+    height: 85%;
+  }
+
+  &__item {
+    display: flex;
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    gap: 0.3rem;
+    margin-right: 3rem;
+
+    &:last-child {
+      margin: 0;
+    }
+
+
+
+
+  }
+
+  &__menu--btn {
+    // margin-left: 3rem;
+    // margin-right: 2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5625rem;
+    background: var(--White, #FFF);
+    /* Base shadow */
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08);
+    border: white;
+    cursor: pointer;
+
+    &:hover {
+      background-color: lightgray;
+      transition: 0.9s;
+    }
+
+  }
+
+  &__btn--line1,
+  &__btn--line2,
+  &__btn--line3 {
+    width: 1.5rem;
+    height: 0.125rem;
+    margin-top: 0.46rem;
+    background-color: rgba(196, 186, 186, 0.712);
+
+  }
+
+  &__login,
+  &__cart--text {
+    color: var(--Gray-second-text, #9093A6);
+
+    /* Button/text-defoult */
+    font-family: "Martel Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    // line-height: 1.25rem;
+    /* 125% */
+    // letter-spacing: 0.03125rem;
+  }
+
+
+
+
+
 }

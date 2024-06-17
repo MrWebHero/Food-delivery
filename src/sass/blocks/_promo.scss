@@ -1,0 +1,171 @@
+.promo {
+  padding: 1rem 2rem 4rem 2rem;
+
+  &__title {
+    margin-top: 7rem;
+    display: inline-block;
+    width: 60%;
+    height: 20%;
+    max-width: 34rem;
+    color: var(--Gray-Dark, #3F4255);
+    font-family: Poppins;
+    font-size: 3.625rem;
+    font-weight: 300;
+    line-height: 4rem;
+    letter-spacing: 0.18125rem;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+  }
+
+  &__img--main {
+    width: 45%;
+    // min-width: 40.5rem;
+    // height: 40.5625rem;
+  }
+
+  &__order {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -12rem;
+    margin-left: 1rem;
+  }
+
+  &__item {
+    width: 15%;
+    height: 10%;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.25rem;
+    border: 2px solid var(--Brand-Yellow-Bright, #FFE145);
+    text-align: center;
+    /* Button/text-defoult */
+    font-family: "Martel Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+    /* 125% */
+    letter-spacing: 0.03125rem;
+    margin-right: 1rem;
+
+    &:hover {
+      background-color: #d8cb7e;
+      transition: 0.9s;
+    }
+
+  }
+
+  a {
+    color: var(--Gray-Dark, #3F4255);
+
+    text-decoration: none;
+
+  }
+
+  span {
+    color: var(--Gray-Dark, #3F4255);
+    /* Text/Sign */
+    font-family: "Martel Sans";
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1rem;
+  }
+
+  .rucola {
+    display: block;
+    margin: 0 auto;
+    width: 7.625rem;
+    height: 10.375rem;
+  }
+
+  &__offer {
+    margin-top: 3rem;
+    background-color: var(--White, #FFF);
+    filter: drop-shadow(0px 8px 40px rgba(0, 0, 0, 0.08));
+    width: 65%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  &__item--offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--Gray-Dark, #3F4255);
+    font-family: "Martel Sans";
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    letter-spacing: 0.03125rem;
+   
+
+  }
+
+  &__arrow {
+    margin-top: -6rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .img-offer {
+    display: block;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__restaurants {
+    margin-top: 3rem;
+  }
+
+  &__restaurants-title {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+
+      color: var(--Gray-Dark, #3F4255);
+      font-family: Poppins;
+      font-size: 2.25rem;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 4rem;
+      /* 177.778% */
+      letter-spacing: 0.18rem;
+    }
+
+
+  }
+
+  &__restaurants-btn {
+    padding: 0.8rem 1.2rem;
+    width: 10%;
+    height:100%;
+    border-radius: 0.25rem;
+    background:#FFE145;
+    color: var(--Gray-second-text, #9093A6);
+    text-align: center;
+    /* Button/text-defoult */
+    font-family: "Martel Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+    /* 125% */
+    letter-spacing: 0.03125rem;
+    border: none;
+    &:hover {
+      background:#F2F4FA;
+    }
+  }
+
+
+}

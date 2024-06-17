@@ -1,7 +1,58 @@
 @font-face {
-  font-family: "Martel-sans";
+  font-family: "Martel Sans";
   src: local("Martel Sans"), local("Martel-Sans"),
-     url("../fonts/MartelSans-Regular.woff") format("woff");
+    url("../fonts/MartelSans-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "Martel Sans";
+  src: local("Martel Sans"), local("Martel-Sans"),
+    url("../fonts/MartelSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Martel Sans";
+  src: local("Martel Sans"), local("Martel-Sans"),
+    url("../../fonts/MartelSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Martel Sans";
+  src: local("Martel Sans"), local("Martel-Sans"),
+    url("../fonts/MartelSans-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+
 }
