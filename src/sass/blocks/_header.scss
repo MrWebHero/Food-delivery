@@ -40,7 +40,7 @@
 
   }
 
-  &__menu--btn {
+  &__burger-menu {
     // margin-left: 3rem;
     // margin-right: 2rem;
     padding-bottom: 0.5rem;
@@ -64,9 +64,7 @@
 
   }
 
-  &__btn--line1,
-  &__btn--line2,
-  &__btn--line3 {
+    .line  {
     width: 1.5rem;
     height: 0.125rem;
     margin-top: 0.46rem;

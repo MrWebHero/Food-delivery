@@ -6,11 +6,6 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>yellowKitchen</title>
-   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap"
-      rel="stylesheet"> -->
-   <!-- <link rel="stylesheet" href="./sass/blocks/_fonts.scss"> -->
    <link rel="stylesheet" href="./css/style.min.css">
 
 </head>
@@ -31,11 +26,12 @@
                   <div class="header__cart--text">0</div>
                </div>
                <div class="header__item">
-                  <button class="header__menu--btn">
-                     <div class="header__btn--line1"></div>
-                     <div class="header__btn--line2"></div>
-                     <div class="header__btn--line3"></div>
-                  </button>
+                  <div class="header__burger-menu">
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                  </div>
+
                </div>
             </div>
          </div>
@@ -63,27 +59,24 @@
                <img src="./img/rucola-png.png" alt="rucola" class="rucola">
             </div>
             <div class="promo__offer">
-               <div class="promo__item--offer">
-                  <img src="./icons/Page 1.svg" alt="page" class="img-offer">
+               <div class="promo__item-offer">
+                  <img src="./icons/Page1.svg" alt="page" class="img-offer">
                   <div class="promo__descr--offer">delivery in all paris in less than 30 minutes</div>
                </div>
-               <div class="promo__item--offer">
+               <div class="promo__item-offer">
                   <img src="./icons/delivery.png" alt="delivery" class="img-offer">
                   <div class="promo__descr--offer">Free delivery from 29 euros</div>
                </div>
-               <div class="promo__item--offer">
+               <div class="promo__item-offer">
                   <img src="./icons/Group.svg" alt="group" class="img-offer">
-                  <div class="promo__descr--offer">Only fresh and French products</div>
+                  <div class="promo__descr-offer">Only fresh and French products</div>
                </div>
-               <!-- <div class="promo__item--offer">
-                  <img src="./icons/arrow.svg" alt="arrow" class="img-offer">
-                  <div class="promo__descr--offer">Fresh salad, Il Pasifigio</div>
-               </div> -->
+
             </div>
             <div class="promo__arrow">
                <div class="promo__item--arrow">
                   <img src="./icons/arrow.svg" alt="arrow" class="img-offer">
-                  <div class="promo__descr--offer">Fresh salad, Il Pasifigio</div>
+                  <div class="promo__descr-offer">Fresh salad, Il Pasifigio</div>
                </div>
             </div>
             <div class="promo__restaurants">
@@ -93,10 +86,36 @@
                   </div>
                   <button class="promo__restaurants-btn">show all</button>
                </div>
-
+               <div class="promo__restaurants--cards">
+                  <div class="promo__cards--item"><img src="./icons/restaurant1.png" alt="Restaurants"
+                        class="img-cards"></div>
+                  <div class="promo__cards--item"><img src="./icons/restaurant2.png" alt="Restaurants"
+                        class="img-cards"></div>
+                  <div class="promo__cards--item"><img src="./icons/restaurant3.png" alt="Restaurants"
+                        class="img-cards"></div>
+                  <div class="promo__cards--item"><img src="./icons/restaurant4.png" alt="Restaurants"
+                        class="img-cards"></div>
+               </div>
             </div>
          </div>
+         <div class="promo__restaurants--wrapper">
+            <div class="promo__restaurants--address">
+               <div class="promo__restaurants--address-text">
+                  <h2 class="address">
+                     Your nearest restaurants
+                  </h2>
+                  <p>Each kitchen works with its own delivery area to deliver food to you as soon as possible</p>
+               </div>
+            </div>
+            <div class="promo__restaurant--form-block">
+               <form action="#" class="promo__restaurants--form">
+                  <img src="./icons/loc.svg" alt="location" class="promo__input-loc">
+                  <input class="promo__restaurants--input" placeholder="Enter delivery address" type="text">
+                  <input class="submit" type="submit" value="send">
 
+               </form>
+            </div>
+         </div>
       </section>
    </main>
 

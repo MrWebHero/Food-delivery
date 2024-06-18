@@ -1,5 +1,5 @@
 .promo {
-  padding: 1rem 2rem 4rem 2rem;
+  padding: 1rem 0.5rem 4rem 0.5rem;
 
   &__title {
     margin-top: 7rem;
@@ -64,6 +64,11 @@
 
     text-decoration: none;
 
+    &:hover {
+      color: inherit;
+      text-decoration: none;
+    }
+
   }
 
   span {
@@ -87,14 +92,13 @@
     background-color: var(--White, #FFF);
     filter: drop-shadow(0px 8px 40px rgba(0, 0, 0, 0.08));
     width: 65%;
-   
     display: flex;
     justify-content: space-between;
     align-items: center;
 
   }
 
-  &__item--offer {
+  &__item-offer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +109,7 @@
     font-weight: 300;
     line-height: 1.5rem;
     letter-spacing: 0.03125rem;
-   
+
 
   }
 
@@ -147,10 +151,10 @@
 
   &__restaurants-btn {
     padding: 0.8rem 1.2rem;
-    width: 10%;
-    height:100%;
+    min-width: 10%;
+    height: 100%;
     border-radius: 0.25rem;
-    background:#FFE145;
+    background: #FFE145;
     color: var(--Gray-second-text, #9093A6);
     text-align: center;
     /* Button/text-defoult */
@@ -162,10 +166,119 @@
     /* 125% */
     letter-spacing: 0.03125rem;
     border: none;
+
     &:hover {
-      background:#F2F4FA;
+      background: #F2F4FA;
+      transition: 0.8s;
     }
   }
 
+  &__restaurants--cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+  .img-cards {
+    width: 100%;
+    height: auto;
+
+  }
+
+  .container-grey {
+    padding: 0;
+  }
+
+  &__restaurants--wrapper {
+    position: relative;
+    padding: 3rem 2.5rem;
+    width: 100%;
+    background: var(--Gray-bg, #F2F4FA);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__restaurants--address-text {
+    width: 60%;
+    min-width: 3rem;
+    .address {
+      width: 100%;
+      min-width:32rem;
+      color: var(--Gray-Dark, #3F4255);
+      /* Title/1 */
+      font-family: Poppins;
+      font-size: 2.25rem;
+      font-weight: 300;
+      line-height: 4rem;
+      /* 177.778% */
+      letter-spacing: 0.18rem;
+    }
+
+    p {
+      color: var(--Gray-Dark, #3F4255);
+
+      /* Text/Defoult */
+      font-family: "Martel Sans";
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.5rem;
+      /* 150% */
+      letter-spacing: 0.03125rem;
+    }
+  }
+
+  &__restaurant--form-block {
+    display: flex;
+    width: 40%;
+  }
+
+  &__restaurants--input {
+    border: none;
+    width: 21rem;
+    height: 4.5rem;
+    padding-left: 2rem;
+    color: var(--Gray-second-text, #9093A6);
+    /* Text/Defoult */
+    font-family: "Martel Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 150% */
+    letter-spacing: 0.03125rem;
+    &::active {
+      border: none;
+    }
+
+  }
+
+  &__input-loc {
+    display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+    position: absolute;
+    right: 37.5%;
+    margin-top: 1.6rem;
+    margin-right: 0.3rem;
+  }
+
+  .submit {
+    padding: 1.75rem 1.90rem;
+    border-radius: 0.25rem;
+    background: var(--Brand-Yellow-Bright, #FFE145);
+    color: var(--Brand-Yellow-Dark, #B79C10);
+    text-align: center;
+
+    /* Button/text-defoult */
+    font-family: "Martel Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+    /* 125% */
+    letter-spacing: 0.03125rem;
+    border: none;
+  }
 }
